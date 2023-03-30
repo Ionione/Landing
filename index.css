@@ -1,0 +1,14 @@
+:root{
+    /* COLOR PLATE */
+    --io-color-n-000: #fff8dc;
+    --io-color-n-001: #d2169d;
+    --io-color-n-002: #808000;
+    --io-color-n-003: #8b4513;
+    
+    /* BACKGROUND COLOR */
+    --io-color-background:var(--io-color-n-000);
+
+    /* TYPGRAPH COLOR */
+    --io-color-typography-heading:var(--io-color-n-001)
+    
+}
