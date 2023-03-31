@@ -1,14 +1,24 @@
-:root{
+:root {
     /* COLOR PLATE */
     --io-color-n-000: #fff8dc;
     --io-color-n-001: #d2169d;
     --io-color-n-002: #808000;
     --io-color-n-003: #8b4513;
-    
+    --io-color-n-004: #0f0f0f;
     /* BACKGROUND COLOR */
-    --io-color-background:var(--io-color-n-000);
+    --io-color-background: var(--io-color-n-000);
 
     /* TYPGRAPH COLOR */
-    --io-color-typography-heading:var(--io-color-n-001)
+    --io-color-typography-heading: var(--io-color-n-003);
+    --io-color-typography-body: var(--io-color-n-003);
+    --io-color-typography-price: var(--io-color-n-004);  
     
+    /* TYPOGRAPHY */
+    --io-typography-typeface: "Lato", Alkatra;
+
+    /* FONT SIZE */
+    --io-typography-h1: 1.7rem;
+    --io-typography-h2: 1.2rem;
+    --io-typography-h3: 1.0rem;
+    --io-typography-p: 0.7rem;  
 }
