@@ -28,7 +28,6 @@
         <title>Lorem Tractorum</title>
     </head>
     <body>
-        <div class="Landing">
          <!-- HEADER -->
             <header class="io-section-header">
                 <div class="io-layout-container">
@@ -37,17 +36,20 @@
                         <a href="#" role="link" class="io-box-header--title">
                             <h1>Lorem Tractorum</h1>
                         </a>
-                        <label for="io-hamburg er-labbel" for="hamburger">&#9776;</label>
-                        <input type="checkbox" class="io-hamburger" id="hamburger" />
+                        <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680685802/Vamos_Vecino__logo_.svg_dazv83.png"
+                         alt="Logo" class="io-logo"
+                         >
+                        <label for="io-hamburger-labbel" for="hamburger">&#9776;</label>
+                        <input type="checkbox" class="io-hamburger" id="hamburger">
                         <!-- NAVIGATION BOX -->
-                        <nav role="navigation" class="io-section-nav">
-                            <ul class="io-layout-flex io-section-nav">
+                        <nav role="navigation" class="io-section-nav-left">
+                            <ul class="io-layout-flex io-section-header-nav">
                                 <li>
                                     <a href="#"
                                     role="noopener"
                                     aria-label="#"
                                     class="io-section-header--nav-link"
-                                >Objectives</a>
+                                    >Models</a>
                                 </li>
                                 <li>
                                     <a href="#"
@@ -68,7 +70,31 @@
                                     role="noopener"
                                     aria-label="#"
                                     class="io-section-header--nav-link"
-                                    >Telecom-Contact</a>
+                                    >Offers</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav role="navigation" class="io-section-nav-right">
+                            <ul class="io-layout-flex io -section-header-nav io-section-header-nav-right">
+                                <li>
+                                    <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680688293/Sample_User_Icon_a2skha.png" 
+                                    alt="User Icon" class="io-Icon"/>
+                                </li>
+                                <li>
+                                 <a href="#" 
+                                 role="noopener"
+                                  class="io-section-header--nav"
+                                  >Iniciar Sesion</a
+                                  >
+                                </li>
+                                <li>
+                                   <span>∫</span>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                     role="noopener"
+                                     >Contacto</a
+                                     >
                                 </li>
                             </ul>
                         </nav>
@@ -78,23 +104,21 @@
             <main>
                 <!-- TRACTOR -->
                 <section class="io-section-tractor">
-                    <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680083706/Captura_de_pantalla_2023-03-27_160914_nhglxe.png" alt="Logo"
-                    loading="auto"
+                    <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680083706/Captura_de_pantalla_2023-03-27_160914_nhglxe.png" 
+                    alt="Banner Lorem Tractorum"
+                    loading="lazy"
                     class="io-section-tractor--banner"
-                    height="300"
-                    width="100%"
                     />
                 </section>
                 <!-- Featured Items -->
                 <section class="io-section-highlight io-layout-flex">
-                    <h2>Hightlight Offers</h2>
+                    <h2>Highlight Offers</h2>
                     <div class="io-section-Highlight_gallery io-layout-grid">
                         <article class="io-section-highlight_article io-layout-flex">
                             <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680275024/mf8700s_iqzhgn.png" 
                             alt="Massey Ferguson 7150"
                             loading="lazy"
                             class="io-section-highlight-preview"
-                            height="100"
                             />
                             <h3>Massey Ferguson 7150</h3>
                             <p class="io-section-highlight-price">30.000€</p>   
@@ -103,8 +127,7 @@
                             <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1678898657/vega_95_dualst_escorzo_delantero_po4ekf.png" 
                             alt="Ferrari Vega 95"
                             loading="lazy"
-                            class="io-section-highlight-preview"
-                            height="100"
+                            class="io-section-highlight-preview"1
                             />
                             <h3>Ferrari Vega 95</h3>
                             <p class="io-section-highlight-price">33.500€</p>   
@@ -113,8 +136,7 @@
                             <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1678898261/tractor-8270r-estudio_si3iyt.webp" 
                             alt="John Deere 8270R"
                             loading="lazy"
-                            class="io-section-highlight-preview"
-                            height="100"
+                            class="io-section-highlight-preview"1
                             />
                             <h3>John Deere 8270R</h3>
                             <p class="io-section-highlight-price">124.167€</p>   
@@ -123,8 +145,7 @@
                             <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680275024/tractores--traccion-4-ruedas-6200-cvt-profi-steyr_eo47br.png" 
                             alt="Steyr 6230 CVT Profi"
                             loading="lazy"
-                            class="io-section-highlight-preview"
-                            height="100"
+                            class="io-section-highlight-preview"1
                             />
                             <h3>Steyr 6230 CVT Profi</h3>
                             <p class="io-section-highlight-price">72.500€</p>   
@@ -133,8 +154,7 @@
                             <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1678898441/t5-utility_pzfcyc.png" 
                             alt="NEW HOLLAND 6020"
                             loading="lazy"
-                            class="io-section-highlight-preview"
-                            height="100"
+                            class="io-section-highlight-preview"1
                             />
                             <h3>NEW HOLLAND 6020</h3>
                             <p class="io-section-highlight-price">28.000€</p>   
@@ -143,28 +163,25 @@
                             <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680275223/axion800-0086262001640607561_hzhtdr.png" 
                             alt="CLAAS AXION 810"
                             loading="lazy"
-                            class="io-section-highlight-preview"
-                            height="100"
+                            class="io-section-highlight-preview"1
                             />
                             <h3>CLAAS AXION 810</h3>
                             <p class="io-section-highlight-price">38.000€</p>   
                         </article>
                         <article class="io-section-highlight_article io-layout-flex">
                             <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680275423/Kubota_M6002_featured2_qbbj8n.png" 
-                            alt="KUBONTA 5111"
+                            alt="KUBOTA 5111"
                             loading="lazy"
-                            class="io-section-highlight-preview"
-                            height="100"
+                            class="io-section-highlight-preview"1
                             />
-                            <h3>KUBONTA 5111</h3>
+                            <h3>KUBOTA 5111</h3>
                             <p class="io-section-highlight-price">36.500€</p>   
                         </article>
                         <article class="io-section-highlight_article io-layout-flex">
                             <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680600359/53eb678b0237fbe17a5a4482_1618932460_web_es-ES_yesbo2.png" 
                             alt="FENDT 1050 VARIO"
                             loading="lazy"
-                            class="io-section-highlight-preview"
-                            height="100"
+                            class="io-section-highlight-preview"1
                             />
                             <h3>FENDT 1050 VARIO</h3>
                             <p class="io-section-highlight-price">451.689€</p>   
@@ -173,8 +190,7 @@
                             <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680601129/card_6TTV_serie_rknqso.webp" 
                             alt="Deutz-Fahr"
                             loading="lazy"
-                            class="io-section-highlight-preview"
-                            height="100"
+                            class="io-section-highlight-preview"1
                             />
                             <h3>Deutz-Fahr</h3>
                             <h4>5120 TTV</h4>
@@ -184,8 +200,7 @@
                             <img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680602042/LA_RP6D_SERIE6RS_BlueIcon_Studio_003-wpv_225x180_center_center_m6ob9j.png" 
                             alt="Deutz-Fahr"
                             loading="lazy"
-                            class="io-section-highlight-preview"
-                            height="100"
+                            class="io-section-highlight-preview"1
                             />
                             <h3>Landini</h3>
                             <h4>Serie 5-085</h4>
@@ -194,15 +209,34 @@
                         
                     </div>
                 </section>
+                <!-- VIDEO -->
                 <section class="io-section-video io-layout-flex">
                     <div class="io-section-video_description io-layout-flex">
-                        <h2>The passion of life</h2>
-                        <button class="rc-buttton">Watch</button>
+                        <button class="io-button">Lifestyle</button>
                     </div>
-                    <video src="./Aseets/agricultura-1098.mp4" type="Video/mp4" />
-                </video>
+                    <video autoplay muted class="section-video-media" 
+                    src="./Aseets/agricultura-1098.mp4" 
+                    type="Video/mp4"
+                    >
+                    </video>
                 </section>
             </main>
-        </div>
+            <footer class="io-footer">
+                <div class="io-footer-container">
+                    <div class="io-footer-container-left">
+                        <p class="io-footer-left__copyright-text">Copyright &copy; 2023 All Rights Reserved by
+                            <a href="#">Lorem Tractorum</a>
+                        </p>
+                        <div class="io-footer-container-right">
+                            <ul class="io-footer-container-right_social-icons">
+                                <li><a class="io-social-icons-facebook" href="#" target="_blank"><img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680693717/2175193_blrj8u.png" alt="Facebook"></a></li>
+                                <li><a class="io-social-icons-instagram" href="#" target="_blank"><img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680693741/87390_cucw1s.png" alt="Instagram"></a></li>
+                                <li><a class="io-social-icons-twitter" href="#" target="_blank"><img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680693757/733635_hqrwuy.png" alt="Twitter"></a></li>
+                                <li><a class="io-social-icons-github" href="#" target="_blank"><img src="https://res.cloudinary.com/dvmtedjvt/image/upload/v1680693774/25231_sniiiz.png" alt="Github"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
     </body> 
 </html>
